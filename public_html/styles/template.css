@@ -1,0 +1,64 @@
+html, body, div, header, section, article, footer, p, ul, li, h1, a{
+    margin: 0;
+    padding: 0;
+}
+html {
+    padding: 10px;
+    background-color: #cb60b3; 
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+.button {
+    padding: 0px 5%;
+    margin: 2% 40%;
+    text-decoration: none;
+    border: 1px solid #a8a8a8;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 15px 2px purple;
+    color: floralwhite;
+    text-transform: capitalize;
+}
+#logo, ul{
+    text-align: center;
+}
+h1, a {
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 2%;
+}
+li {
+    display: inline-block;
+    width: 10%;
+}
+li a {
+    padding: 5%;
+    border: 2px solid #de47ac;
+    background-color: #603382;
+    box-shadow: 2px 2px 2px #2c2727;
+    border-radius: 15px;
+    text-decoration: none;
+}
+ul a:hover {
+    text-decoration: underline;
+    background-color: #5cdde9;
+}
+article {
+    margin: 2% auto;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+footer p {
+    font-style: italic;
+    color: #2c2727;
+}
+#center {
+    text-align: center;
+}

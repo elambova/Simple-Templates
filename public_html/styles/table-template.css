@@ -1,0 +1,141 @@
+html, body, div, p, a, nav, 
+table, tr, td, ul, li, a, 
+fieldset, legend, img, input{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: beige;
+}
+#wrap {
+    width: 99%;
+    padding-top: 5%;
+}
+.button {
+    padding: 0px 5%;
+    margin: 2% 40%;
+    text-decoration: none;
+    border: 1px solid #a8a8a8;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 15px 2px purple;
+    color: floralwhite;
+    text-transform: capitalize;
+}
+#table-persons {
+    width: 60%;
+    margin: 5% auto;
+}
+table, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table tr:first-child td {
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+hr {
+    width: 99%;
+    border: 2px solid black;
+}
+#container-pc {
+    width: 80%;
+    margin: 5% auto 15%;
+}
+#navigation{
+    width: 99%;
+    text-align: center;
+    margin: 0 auto 5%;
+}
+#navigation a {
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#navigation a:hover {
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
+}
+
+#container-pc table {
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+#container-pc table td {
+    border: none;
+    padding: 2px;
+}
+
+#container-pc table, #container-sliders{
+    float: left;
+}
+
+.laptop-image, .laptop-properties {
+    float: left;
+    margin-left: 10%;
+}
+
+.laptop-properties {
+    width: 30%;
+    margin: 10% auto;
+}
+
+fieldset {
+    margin: 1% 2%;
+    padding: 2% 1%;
+}
+
+fieldset p {
+    text-align: right;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+legend {
+    text-align: center;
+}
+
+.price {
+    clear: both;
+    display: block;
+    width: 90%;
+    text-align: center;
+}
+.price p {
+    display: inline-block;
+}
+.price p:last-child{
+    margin-left: 15%;
+}
+
+#container-sliders {
+    font-size: 27px;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+#container-sliders p {
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.slider-price {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+}

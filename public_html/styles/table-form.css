@@ -1,0 +1,73 @@
+html, body, div, p, table, tr, td, input, thead, tbody, tfoot, a{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#wrap {
+    width: 99%;
+    padding-top: 2%;
+}
+.button {
+    padding: 0px 5%;
+    margin: 2% 40%;
+    text-decoration: none;
+    border: 1px solid #a8a8a8;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 15px 2px purple;
+    color: floralwhite;
+    text-transform: capitalize;
+}
+#forms-frames {
+    width: 80%;
+    margin: 2% auto;
+}
+table, td{
+    border: 1px solid #ded9d9;
+    border-color: gray;
+    border-radius: 0px;
+    border-collapse: collapse;
+    color: black;
+    font-weight: normal;
+    padding: 1%;
+}
+thead, tfoot {
+    background-color: lightblue;   
+}
+#product-id {
+    width: 5%;
+}
+#discontinued {
+    width: 10%;
+}
+.units {
+    width: 15%;
+}
+#inputId {
+    width: 35%;
+}
+#inputName {
+    width: 70%;
+}
+.inputPrice {
+    width: 56%; 
+}
+tbody td:last-child, thead td:last-child{
+    text-align: center;
+}
+tfoot tr td:last-of-type {
+    text-align: right;
+}
+tfoot a {
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+tfoot a:hover {
+    border: 1px solid coral;
+    border-radius: 10px;
+}
